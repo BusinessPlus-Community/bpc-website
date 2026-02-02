@@ -268,6 +268,7 @@ tmp/
 .claude/bin/
 .claude/ccp/
 .claude/installer/
+CLAUDE.md
 
 # Local/user-specific
 mcp_servers.json
