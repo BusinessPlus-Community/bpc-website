@@ -31,9 +31,9 @@ export function ThemeToggle() {
       aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
     >
       {isDark ? (
-        <Sun className="h-5 w-5" aria-hidden="true" />
+        <Sun className="h-5 w-5 text-primary" aria-hidden="true" />
       ) : (
-        <Moon className="h-5 w-5" aria-hidden="true" />
+        <Moon className="h-5 w-5 text-primary" aria-hidden="true" />
       )}
     </Button>
   )
